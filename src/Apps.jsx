@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Home.jsx';
 import CreateUser from './Createuser.jsx';
 import UpdateUser from './Updateuser.jsx';
-import DeleteUser from './DeleteUser.jsx';
+import DeleteUser from './Deleteuser.jsx';
 
 const Apps = () => {
   const [users, setUsers] = useState([]);
