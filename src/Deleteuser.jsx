@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Style.css';
 import axios from 'axios';
 
-const Deleteuser = ({ users, setUsers, currentUserId }) => {
+const DeleteUser = ({ users, setUsers, currentUserId }) => {
   const [id, setId] = useState(currentUserId || '');
 
   useEffect(() => {
@@ -47,4 +47,4 @@ const Deleteuser = ({ users, setUsers, currentUserId }) => {
   );
 };
 
-export default Deleteuser;
+export default DeleteUser;
